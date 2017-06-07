@@ -20,7 +20,7 @@ module Teamwork
     include Teamwork::Client::Timer
 
     def api_endpoint
-      @api_endpoint ||= "http://#{Teamwork.subdomain}.teamworkpm.net/"
+      @api_endpoint ||= "https://#{Teamwork.subdomain}.teamwork.com/"
     end
 
     def self.authenticated?
